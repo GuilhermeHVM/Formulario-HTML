@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<meta charset="utf-8">
+		<title>
+			Página inicial
+		</title>
+
+	</head>
+
+	<body>
+
+		<center><!-- centralzalizar elemento-->
+
+			<h2>LOGIN</h2>
+				<form><!-- tag "form" pra abertura de formulario-->
+					
+					Login:<br>
+					<input type="text" name="login"><br>
+						<!-- tag "input" espaço de aplicação de informações do usuario -->
+						<!-- type: "text"= espaço pra texto; "password"= espaço pra aplicação de senha com "****"; "button"= botão de envio; "radio"= espaço para seleção e preenchimento do circulo que se encontra antes da palavra ou valor; "checkbox"= espaço para seleção e preenchimento do quadrante que se encontra antes da palavra ou valor -->
+						<!-- "name"= utilizado pra buscar em bancos de dados como palavra chave a encontra a resposta do usuario -->
+						<!-- "value"= valor aplicado a resposta do usuario, sendo armazenada da forma na qual voce deu o valor. "value"= tambem pode ser a palavra aplicadas em botôes de envio, pois botões tambem são envio de informações e por isso podem receber esse valor escrito no botão-->
+					Senha:<br>
+					<input type="password" name="senha"><br>
+
+					<input type="button" value="Logar">
+
+				</form>
+
+				<hr>
+
+			<h2>CADASTRO</h2>
+					<form>
+						Login:<br>
+						<input type="text" name="login"><br><br>
+
+						Sexo:<br>
+						<input type="radio" name="sexo" value="M">
+						Masculino<br>
+						<input type="radio" name="sexo" value="F">
+						Feminino<br><br>
+
+						
+						Interreses:<br>
+						<input type="checkbox" name="Interreses">
+						Futebol<br>
+						<input type="checkbox" name="Interreses">
+						Basquete<br>
+						<input type="checkbox" name="Interreses">
+						Vôlei<br>
+						Outro interesse:<br>
+						<input type="text" name="Interreses"><br><br>
+
+						Estado:<br>
+							<!-- "select"= tag usada pra aplicação de opção de seleção, acompanhada de "nome" que é a palavra chave a ser buscada que acompanhara a responsta do usuario -->
+							<!-- "option" aplicação de opções ao usuario, acompanhado do valor da resposta e a resposta aparente ao usuario -->
+						<select nome="Estado">
+							<option value="RJ">RJ</option>
+							<option value="SP">SP</option>
+							<option value="ES">ES</option>
+							<option value="MG">MG</option>
+						</select><br><br>
+
+						Obeservações:<br>
+							<!-- tag "textarea"= caixa de texto com maior espaço e aumento e diminuição de tamanho -->
+						<textarea></textarea><br><br>
+
+						<input type="button" value="Cadastrar-se">
+
+						</form>
+		</center>	
+
+	</body>
+
+</html>
